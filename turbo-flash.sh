@@ -1,4 +1,5 @@
 #!/bin/bash
+#need to run this script with "sudo"
 fastboot flash bootloader bootloader
 fastboot oem reboot fb
 sleep 3 # wait for bootloader reboot
